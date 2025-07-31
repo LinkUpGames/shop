@@ -1,13 +1,17 @@
 import React from 'react';
-import {Box} from 'ink';
+import {Box, Text} from 'ink';
 
 type Props = {};
 
 /**
  * The content to display
  */
-const content = ({}: Props) => {
-	return <Box height={'100%'}></Box>;
+const Content = ({}: Props) => {
+	return (
+		<Box width={'100%'} borderStyle="single">
+			<Text>I'm the content area</Text>
+		</Box>
+	);
 };
 
-export default content;
+export default Content;

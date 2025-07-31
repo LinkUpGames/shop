@@ -1,11 +1,15 @@
-import {Box} from 'ink';
+import {Box, Text} from 'ink';
 import React from 'react';
 
 /**
  * Sidebar
  */
-const sidebar = () => {
-	return <Box height={'100%'}></Box>;
+const Sidebar = () => {
+	return (
+		<Box borderStyle="singleDouble" width={40}>
+			<Text>I'm a sidebar</Text>
+		</Box>
+	);
 };
 
-export default sidebar;
+export default Sidebar;
